@@ -79,7 +79,7 @@ services:
       mem_reservation: 128M
       cpus: 1
     db:
-      image: mysql:8.0
+      image: mysql:8.0.44
       platform: linux/amd64
       ports:
         - 8083:3306
